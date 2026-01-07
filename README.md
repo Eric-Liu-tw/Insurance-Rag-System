@@ -36,6 +36,5 @@
 * `bulid_data.py`: 初始化向量資料庫與資料導入。
 
 ## 📧 聯絡資訊
-* [cite_start]**姓名**：劉權 (Eric LIU) [cite: 6]
-* [cite_start]**Email**：c110156248@nkust.edu.tw [cite: 6]
-* [cite_start]**學歷**：國立高雄科技大學 - 智慧商務系 [cite: 8, 9]
+* [cite_start]**姓名**：劉權毅 (Eric LIU) 
+* [cite_start]**Email**：c110156248@nkust.edu.tw 
