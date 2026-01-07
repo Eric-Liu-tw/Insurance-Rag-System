@@ -1,19 +1,19 @@
 # 旅遊不便險 AI 語意檢索助手 (Insurance RAG System)
 
-本專案利用 **LangChain** 框架結合 **Google Gemini 1.5 Flash** 模型，構建了一個針對「旅遊不便險」條款的檢索增強生成（RAG）系統。使用者可以透過自然語言詢問保險理賠細節，系統會自動從保險契約文件中檢索相關條文並給出精準回答。
+本專案利用 **LangChain** 框架結合 **Google Gemini 2.5 Flash** 模型，構建了一個針對「旅遊不便險」條款的檢索增強生成（RAG）系統。使用者可以透過自然語言詢問保險理賠細節，系統會自動從保險契約文件中檢索相關條文並給出精準回答。
 
 ## 🚀 核心功能
 * **自然語言問答**：透過 LLM 理解使用者問題，解決保險條款生澀難懂的痛點。
-* **精準條文檢索**：自動從 PDF/Docx 文件中提取資訊，並標註參考來源與條號 。
-* **對話歷史保存**：具備 Session 管理功能，支援多輪對話上下文理解 。
+* **精準條文檢索**：自動從 PDF/Docx 文件中提取資訊，並標註參考來源與條號。
+* **對話歷史保存**：具備 Session 管理功能，支援多輪對話上下文理解。
 * **視覺化 Dashboard**：使用 Streamlit 打造直觀的 Web UI 互動界面 。
 
 ## 🛠️ 技術棧
-* [cite_start] **語言/框架**：Python, LangChain [cite: 1, 12, 43]
-* **AI 模型**：Google Gemini 1.5 Flash (Generative AI)
-* **向量資料庫 向量：ChromaDB (Vector Store)
-* [cite_start] **資料處理**：Pandas, Regex, RecursiveCharacterTextSplitter [cite: 15]
-* [cite_start] **部署容器**：Docker (具備容器化部署基礎) [cite: 5, 17]
+* **語言/框架**：Python, LangChain 
+* **AI 模型**：Google Gemini 2.5 Flash (Generative AI)
+* **向量資料庫**：ChromaDB (Vector Store)
+* **資料處理**：Pandas, Regex, RecursiveCharacterTextSplitter
+* **部署容器**：Docker (具備容器化部署基礎) 
 
 ## 🏗️ 系統架構與實作細節
 
@@ -36,5 +36,5 @@
 * `bulid_data.py`: 初始化向量資料庫與資料導入。
 
 ## 📧 聯絡資訊
-* **姓名**：劉權毅 (Eric LIU) [cite: 6]
-* **Email**：c110156248@nkust.edu.tw [cite: 6]
+* **姓名**：劉權毅 (Eric LIU)
+* **Email**：c110156248@nkust.edu.tW
